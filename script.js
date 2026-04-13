@@ -36,7 +36,7 @@ if (form && status) {
       status.textContent = 'Please fill in all required fields.';
       return;
     }
-    status.textContent = 'Thank you! We'll get back to you within 24 hours.';
+    status.textContent = 'Thank you! We\'ll get back to you within 24 hours.';
     form.reset();
   });
 }
